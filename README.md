@@ -21,7 +21,7 @@ This script processes the given input data and creates the "Project_Tidy_Data.tx
 
 1. Reads & cleans descriptive variable names (Assignment part 4).
 2. Creates a logical vector flagging our variables of interest (Assignment part 2).
-3. Reads the large measurement data files, Subject IDs, and Activity Labels, and combines these files (both test and training) into a single data set (Assignment part 1).
+3. Reads the large measurement data files, Subject IDs, and Activity Labels, and combines these files (both test and training) into a single data set (Assignment part 1).  The logical vector created in the prior step is used to filter out variables we are not interested in summarizing.
 4. Matches the descriptive activity names to the data set created in the prior step using the activity labels as a match key (Assignment part 3).
 5. Computes the mean of each variable of interest within each combination of Subject ID and Activity Name (Assignment part 5).
 
