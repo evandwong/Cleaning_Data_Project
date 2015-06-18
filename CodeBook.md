@@ -2,7 +2,7 @@
 
 This file documents the contents of "Project_Tidy_Date.txt".
 
-###  Match Key Variable
+###  Match Key Variables
 
 Each row of this data set summarizes the set of records from the original data corresponding to the given combination of Subject_ID and Activity_Name. Consequently, these variables uniquely identify the rows of the data set.
 
